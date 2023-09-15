@@ -7,5 +7,7 @@
     copy:
       src: /tmp/filename
       dest: /tmp
-
+      mode: 0777
+      group: ansible
+      owner: root
 
