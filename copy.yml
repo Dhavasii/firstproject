@@ -9,5 +9,4 @@
       dest: /tmp
       mode: 0777
       group: ansible
-      owner: root
-
+      owner: ansible
