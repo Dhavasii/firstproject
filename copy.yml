@@ -1,5 +1,5 @@
 ---
-- name: Copy file
+- nameCopy file
   hosts: all
   become:true
   tasks: 
