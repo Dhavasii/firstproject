@@ -10,4 +10,9 @@
       mode: 0777
       group: ansible
       owner: root
+  
+  - name: install httpd
+    yum:
+      name: httpd
+      state: installed
 
