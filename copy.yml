@@ -1,7 +1,6 @@
 ---
 - name: Copy file
   hosts: all
-  become: true
   tasks: 
   - name: copying file
     copy:
