@@ -15,4 +15,3 @@
     yum:
       name: httpd
       state: installed
-
