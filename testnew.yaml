@@ -1,0 +1,6 @@
+---
+- name: name of the script
+  hosts: all(target section)
+  become: true
+  tasks:
+  - name: scripts tasks
