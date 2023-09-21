@@ -1,2 +1,11 @@
-
-
+---
+- name: Copy file
+  hosts: all
+  become: true
+  tasks: 
+  - name: copying file
+    copy:
+      src: /tmp/filename
+      dest: /tmp
+      mode: 0777
+      group: ansible
