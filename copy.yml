@@ -1,7 +1,7 @@
 ---
-- name: Copy file
+- nameCopy file
   hosts: all
-  become: true
+  become:true
   tasks: 
   - name: copying file
     copy:
@@ -9,3 +9,5 @@
       dest: /tmp
       mode: 0777
       group: ansible
+      owner: root
+      owner: ansible
