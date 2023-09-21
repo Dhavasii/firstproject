@@ -3,4 +3,4 @@
   hosts: all(target section)
   become: true
   tasks:
-  scripts tasks
+  - name: scripts tasks
